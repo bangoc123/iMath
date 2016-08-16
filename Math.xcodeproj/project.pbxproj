@@ -12,6 +12,11 @@
 		F45EF11D1D61B24900DD7E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45EF11B1D61B24900DD7E17 /* Main.storyboard */; };
 		F45EF11F1D61B24900DD7E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45EF11E1D61B24900DD7E17 /* Assets.xcassets */; };
 		F45EF1221D61B24900DD7E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45EF1201D61B24900DD7E17 /* LaunchScreen.storyboard */; };
+		F45EF12F1D61B74400DD7E17 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F45EF12A1D61B74400DD7E17 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		F45EF1301D61B74400DD7E17 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = F45EF12B1D61B74400DD7E17 /* board.png */; };
+		F45EF1311D61B74400DD7E17 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = F45EF12C1D61B74400DD7E17 /* note1.png */; };
+		F45EF1321D61B74400DD7E17 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = F45EF12D1D61B74400DD7E17 /* note2.png */; };
+		F45EF1331D61B74400DD7E17 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = F45EF12E1D61B74400DD7E17 /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F45EF11E1D61B24900DD7E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45EF1211D61B24900DD7E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F45EF1231D61B24900DD7E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45EF12A1D61B74400DD7E17 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		F45EF12B1D61B74400DD7E17 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		F45EF12C1D61B74400DD7E17 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		F45EF12D1D61B74400DD7E17 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		F45EF12E1D61B74400DD7E17 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		F45EF1161D61B24900DD7E17 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				F45EF1291D61B70C00DD7E17 /* Resource */,
 				F45EF1171D61B24900DD7E17 /* AppDelegate.swift */,
 				F45EF1191D61B24900DD7E17 /* ViewController.swift */,
 				F45EF11B1D61B24900DD7E17 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				F45EF1231D61B24900DD7E17 /* Info.plist */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		F45EF1291D61B70C00DD7E17 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F45EF12A1D61B74400DD7E17 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				F45EF12B1D61B74400DD7E17 /* board.png */,
+				F45EF12C1D61B74400DD7E17 /* note1.png */,
+				F45EF12D1D61B74400DD7E17 /* note2.png */,
+				F45EF12E1D61B74400DD7E17 /* note3.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,11 @@
 			files = (
 				F45EF1221D61B24900DD7E17 /* LaunchScreen.storyboard in Resources */,
 				F45EF11F1D61B24900DD7E17 /* Assets.xcassets in Resources */,
+				F45EF12F1D61B74400DD7E17 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
+				F45EF1321D61B74400DD7E17 /* note2.png in Resources */,
+				F45EF1311D61B74400DD7E17 /* note1.png in Resources */,
+				F45EF1331D61B74400DD7E17 /* note3.png in Resources */,
+				F45EF1301D61B74400DD7E17 /* board.png in Resources */,
 				F45EF11D1D61B24900DD7E17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
